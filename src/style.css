@@ -62,6 +62,7 @@ a{
     border: 4px solid #ccc;
     height: 50px;
     font-family: "Dancing Script", cursive;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
 }
 
 #caixaTexto{
@@ -75,6 +76,7 @@ a{
     font-size:xx-large;
     width: 800px;
     font-family: "Dancing Script", cursive;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
 }
 
 #fotoPadaria{
@@ -85,7 +87,6 @@ a{
     left: 58%;
     top: 30%;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
-
 }
 
 #rodape{
@@ -110,6 +111,5 @@ a{
     background-color: #57141f;
     width: 50px;
     height: auto;
-    margin: 0 10px;
-    
+    margin: 0 10px;  
 }
