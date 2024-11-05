@@ -113,3 +113,57 @@ a{
     height: auto;
     margin: 0 10px;  
 }
+
+#conteudoHist{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    background-image: url(img/background2.png);
+}    
+
+#textoHist{
+    position: relative;
+    top: 8%;
+    right: 0%;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 15px;
+    border: 4px solid #ccc;
+    height: 50px;
+    font-family: "Dancing Script", cursive;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
+}
+
+#caixaTextoHist{
+    border: 4px solid #ccc;
+    background-color: #f9f9f9;  
+    padding: 20px; 
+    border-radius: 30px;  
+    position: absolute;
+    right: 30%;
+    top: 29%;
+    font-size:xx-large;
+    width: 800px;
+    font-family: "Dancing Script", cursive;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.8);
+}
+
+#conteudoGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#fotoGaleria{
+    height: 500px;
+    width: 800px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 4px solid #ebdfcd;
+    transition: transform 0.5s linear;
+}
+
+.galeria img:hover {
+    transform: scale(1.1); 
+}
